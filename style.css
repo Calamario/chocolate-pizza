@@ -1,5 +1,5 @@
 body {
-  width: 80%;
+  width: 70%;
   font-family: 'IBM Plex Serif', serif;
   margin: 0 auto;
 }
@@ -7,7 +7,7 @@ body {
 header div {
   display: inline-block;
   margin-top: 2em;
-  position: relative;
+  
 }
 
 h4 {
@@ -25,14 +25,15 @@ h5 {
 
 header ul {
 
-  display: inline-block;
   float: right;
   margin-top: 2.5em;
+  margin-left: 10px;
 
 }
 
 header ul li {
   display: inline-block;
+
 }
 
 header ul:last-child {
@@ -49,6 +50,7 @@ hr {
 h1 {
   font-family: 'Francois One', sans-serif;
   font-size: 30px;
+  margin-top: 1em;
 }
 
 h2 {
@@ -62,16 +64,31 @@ h2 {
 
 }
 
+#divofdivs{
+  background: url('img/list-bg.png');
+}
+
 .col1, .col2 {
 
-  width: 40%;
-
-  margin: 10px;
+  width: 300px;
+  float: left;
+  margin-left: 130px;
 }
 
 main div form label {
   display: block;
 }
+
+p {
+  text-indent: 30px;
+  margin-top: 30px;
+
+}
+
+
+ footer img:first-child{
+   display: inline-block;
+ }
 
 
 /* font-family: 'VT323', monospace; The BEST FOOD BLOG
